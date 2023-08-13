@@ -26,3 +26,5 @@
 ## 代码介绍
 * springboot文件夹为springboot+vue代码
 * weixin文件夹为微信小程序代码（不完整，部分功能未实现）
+
+## 数据库设计如下图
