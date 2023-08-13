@@ -1,7 +1,7 @@
 # 毕设项目--多无人机取送货业务管理系统
 
 ## 简介
-此项目为SpringBoot+Vue+MyBatis-Plus和微信小程序+SpringBoot实现的前后端分离项目。
+本科毕业设计，此项目为SpringBoot+Vue+MyBatis-Plus和微信小程序+SpringBoot实现的前后端分离项目。
 
 ## 代码介绍
 * springboot文件夹为springboot+vue代码
