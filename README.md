@@ -32,32 +32,41 @@ cabinet：
 ![cabinet](mysql/cabinet.png)
 
 delivery：
-![delivery](delivery.png)
+![delivery](mysql/delivery.png)
 
-cabinet：
-![cabinet](cabinet.png)
+delivery_state：
+![delivery_state](mysql/delivery_state.png)
 
-cabinet：
-![cabinet](cabinet.png)
+drone：
+![drone](mysql/drone.png)
 
-cabinet：
-![cabinet](cabinet.png)
+inventory：
+![inventory](mysql/inventory.png)
 
-cabinet：
-![cabinet](cabinet.png)
+menu：
+![menu](mysql/menu.png)
 
-cabinet：
-![cabinet](cabinet.png)
+number：
+![number](mysql/number.png)
 
-cabinet：
-![cabinet](cabinet.png)
+order：
+![order](mysql/order.png)
 
-cabinet：
-![cabinet](cabinet.png)
+order_state：
+![order_state](mysql/order_state.png)
 
-cabinet：
-![cabinet](cabinet.png)
+role：
+![role](mysql/role.png)
 
-cabinet：
-![cabinet](cabinet.png)
+role_menu：
+![role_menu](mysql/role_menu.png)
+
+staff：
+![staff](mysql/staff.png)
+
+user：
+![user](mysql/user.png)
+
+role_menu：
+![working_state](mysql/working_state.png)
 
