@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/info/info",
+    "pages/allOrder/allOrder",
+    "pages/ingOrder/ingOrder"
+  ],
+  "tabBar":{
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/allOrder/allOrder",
+        "text": "全部订单",
+        "iconPath": "images/全部订单.png",
+        "selectedIconPath": "images/全部订单.png"
+      },
+      {
+        "pagePath": "pages/ingOrder/ingOrder",
+        "text": "正在进行的订单",
+        "iconPath": "images/正在进行的订单.png",
+        "selectedIconPath": "images/正在进行的订单.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "个人信息",
+        "iconPath": "images/个人信息.png",
+        "selectedIconPath": "images/个人信息.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#304156",
+    "navigationBarTitleText": "多无人机取送货",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#304156"
+  },
+  "style": "v2"
+}

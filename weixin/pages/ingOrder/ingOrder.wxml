@@ -1,0 +1,102 @@
+<!--pages/ingOrder/ingOrder.wxml-->
+<view class="deliver-detail" wx:for ="{{ingDatas}}" wx:for-item="ingDatas" wx:key="orderId">
+  <view class="progress">
+    <view class="title">
+      <text>订单状态跟踪</text>
+      <text class="orderNumber">订单号：{{ ingDatas.orderNumber }}</text>
+    </view>
+    <view class="pro-info">
+      <view class="line"></view>
+      <view class="pro-desc">
+      
+        <view class="pro-item selected" wx:if="{{ingDatas.orderFlag >= 1}}">
+          <view class="circle2">
+            <image class="check" src="/images/ok_check.png"/>
+          </view>
+          <view class="text2">未受理</view>
+        </view>
+        <view class="pro-item selected" wx:else>
+          <view class="circle1">
+            <image class="check" src="/images/ok_uncheck.png"/>
+          </view>
+          <view class="text1">未受理</view>
+        </view>
+
+
+        <view class="pro-item" wx:if="{{ingDatas.orderFlag >= 4}}">
+          <view class="circle2">
+            <image class="check" src="/images/ok_check.png" />
+          </view>
+          <view class="text2">未分配</view>
+        </view>
+        <view class="pro-item" wx:else>
+          <view class="circle1">
+            <image class="check" src="/images/ok_check.png" />
+          </view>
+          <view class="text1">未分配</view>
+        </view>
+
+
+        <view class="pro-item"  wx:if="{{ingDatas.orderFlag >= 5}}">
+          <view class="circle2">
+            <image class="check" src="/images/ok_check.png" />
+          </view>
+          <view class="text2">配送中</view>
+        </view>
+        <view class="pro-item" wx:else>
+          <view class="circle1">
+            <image class="check" src="/images/ok_uncheck.png" />
+          </view>
+          <view class="text1">配送中</view>
+        </view>
+
+        <view class="pro-item" wx:if="{{ingDatas.orderFlag >= 6}}">
+          <view class="circle2">
+            <image  class="check2" src="/images/ok_check.png" />
+          </view>
+          <view class="text2">待签收</view>
+        </view>
+        <view class="pro-item" wx:else>
+          <view class="circle1">
+            <image class="check" src="/images/ok_uncheck.png" />
+          </view>
+          <view class="text1">待签收</view>
+        </view>
+
+      </view>
+    </view>
+    <view class="father">
+      <text class="checkProgress">查进程</text>
+      <text class="details">详情</text>
+      <text class="enterOrder">签收</text>
+  </view>
+  </view>
+</view>
+
+  <!-- 进度icon-end -->
+  <!-- 操作记录-start -->
+  <!-- <view class="operations">
+    <view class="vline"></view>
+    <view class="ops-item">
+      <view class="title">
+        <view class="icon-dot"></view>
+        <view class="text">已成功接收你的简历</view>
+      </view>
+      <view class="ops-date">2017-08-31 18:02</view>
+    </view>
+    <view class="ops-item">
+      <view class="title">
+        <view class="icon-dot"></view>
+        <view class="text">已成功接收你的简历</view>
+      </view>
+      <view class="ops-date">2017-08-31 18:02</view>
+    </view>
+    <view class="ops-item">
+      <view class="title">
+        <view class="icon-dot"></view>
+        <view class="text">已成功接收你的简历</view>
+      </view>
+      <view class="ops-date">2017-08-31 18:02</view>
+    </view>
+  </view> -->
+  <!-- 操作记录-end -->

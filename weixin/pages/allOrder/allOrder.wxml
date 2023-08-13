@@ -1,0 +1,27 @@
+<!--pages/allOrder/allOrder.wxml-->
+
+<view class="order"  wx:for ="{{orderDatas}}" wx:for-item="orderDatas" wx:key="orderId">
+      <view class="product_type">
+        <text class="gtype">订单状态</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 1}}">未受理</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 2}}">已撤销</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 3}}">已完成</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 4}}">未分配</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 5}}">配送中</text>
+        <text class="type" wx:if="{{orderDatas.orderFlag === 6}}">待签收</text>      
+      </view>
+      <view class="product">
+        <view class="title">
+          <text class="name">订单号</text>
+          <text class="price">{{ orderDatas.orderNumber }}</text>
+        </view>
+        <view class="NOone">
+          <text class="riqi">下单日期：{{ orderDatas.billingDate!=null ? orderDatas.billingDate : "暂无填写"}}</text>
+          <text class="people">发货人：{{ orderDatas.consignor != null? orderDatas.consignor:""}}</text>
+        </view>
+        <view> 
+          <text class="riqi">结单日期：{{orderDatas.endDate!=null? orderDatas.endDate: "暂无填写"}}</text>
+          <text class="people">收货人：{{orderDatas.consignee != null? orderDatas.consignee:""}}</text>
+        </view>
+      </view>
+</view>

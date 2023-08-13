@@ -1,0 +1,4 @@
+/* pages/login/login.wxss */
+.login {
+  color: red;
+}

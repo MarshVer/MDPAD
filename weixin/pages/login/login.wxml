@@ -1,0 +1,19 @@
+<!--pages/login/login.wxml-->
+<image style="max-width:100%;height:200rpx;margin-top: 150rpx;" mode="aspectFit" src="/images/无人机.png"></image>
+<form bindsubmit="login">
+  <view style="margin-left: 230rpx;margin-top: 20rpx">用户名：
+    <input class="input" name="userUsername" placeholder="请输入用户名"
+    type="text"/>
+  </view>
+  <view style="margin-left: 230rpx;margin-top: 20rpx">密    码：
+    <input class="input" name="userPassword" placeholder="请输入密码"
+     type="text" />
+  </view>
+  <view style="margin-top: 40rpx;text-align: center;">
+    <button class="login" form-type="submit">登录</button>
+    <button>
+      <navigator url="/pages/register/register">注册</navigator>
+    </button>
+  </view>
+</form>
+

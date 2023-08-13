@@ -1,0 +1,74 @@
+<!--pages/info/info.wxml-->
+<view class="partOne">
+  <view class="logo">
+      <open-data type="userAvatarUrl" class="userinfo" id="userinfo1"></open-data>
+    </view>
+    <view id="userinfo2">
+      <text class="userinfo">{{ userInfo.nickname != null ? userInfo.nickname : ""}}</text>
+    </view>
+</view>
+
+<view class="partTwo">
+  <view class="item-box">
+    <view class="items">
+      <view class="item">
+        <view class="inner txt">
+          <i> 用户名</i>
+          <span class="item-data">
+            <i class="rankpace"> {{ userInfo.userUsername }}</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i> 密码</i>
+          <span class="item-data">
+            <i class="rankpace">修改密码</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i>昵称</i>
+          <span class="item-data">
+            <i class="rankpace">{{userInfo.nickname != null ? userInfo.nickname : ""}}</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i>性别</i>
+          <span class="item-data">
+            <i>{{ userInfo.userGender ? '男' : '女' }}</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i>手机</i>
+          <span class="item-data">
+            <i class="rankpace"> {{userInfo.userPhone != null ? userInfo.userPhone : ""}}</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i> 邮箱</i>
+          <span class="item-data">
+            <i class="rankpace">{{userInfo.userEmail != null ? userInfo.userEmail : ""}}</i>
+          </span>
+        </view>
+      </view>
+      <view class="item">
+        <view class="inner txt">
+          <i>出生日期</i>
+          <span class="item-data" >
+            <i class="rankpace" >{{userInfo.userBirthTime != null ? userInfo.userBirthTime : ""}}</i>
+          </span>
+        </view>
+      </view>
+      <button bindtap="reLogin">退出登录</button>
+    </view>
+  </view>
+</view> 
+
