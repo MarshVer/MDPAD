@@ -28,3 +28,36 @@
 * weixin文件夹为微信小程序代码（不完整，部分功能未实现）
 
 ## 数据库设计如下图
+cabinet：
+![cabinet](mysql/cabinet.png)
+
+delivery：
+![delivery](delivery.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
+cabinet：
+![cabinet](cabinet.png)
+
