@@ -29,44 +29,58 @@
 
 ## 数据库设计如下图
 cabinet：
+
 ![cabinet](mysql/cabinet.png)
 
 delivery：
+
 ![delivery](mysql/delivery.png)
 
 delivery_state：
+
 ![delivery_state](mysql/delivery_state.png)
 
 drone：
+
 ![drone](mysql/drone.png)
 
 inventory：
+
 ![inventory](mysql/inventory.png)
 
 menu：
+
 ![menu](mysql/menu.png)
 
 number：
+
 ![number](mysql/number.png)
 
 order：
+
 ![order](mysql/order.png)
 
 order_state：
+
 ![order_state](mysql/order_state.png)
 
 role：
+
 ![role](mysql/role.png)
 
 role_menu：
+
 ![role_menu](mysql/role_menu.png)
 
 staff：
+
 ![staff](mysql/staff.png)
 
 user：
+
 ![user](mysql/user.png)
 
 role_menu：
+
 ![working_state](mysql/working_state.png)
 
